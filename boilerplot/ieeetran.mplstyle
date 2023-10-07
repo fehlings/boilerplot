@@ -1,0 +1,32 @@
+### IEEEtran optmized style
+
+axes.linewidth      : 1.0
+
+figure.dpi          : 300.0
+figure.figsize      : 2.5, 1.6667
+
+font.family         : serif
+font.size           : 9.0
+
+lines.linewidth     : 1.0
+
+pdf.fonttype        : 42
+
+ps.fonttype         : 42
+
+xtick.direction     : in
+xtick.top           : on
+xtick.major.size    : 4.5
+xtick.major.width   : 1.0
+xtick.minor.size    : 2.0
+xtick.minor.width   : 0.75
+xtick.minor.visible : True
+
+ytick.direction     : in
+ytick.right         : on
+ytick.major.size    : 4.5
+ytick.major.width   : 1.0
+ytick.minor.size    : 2.0
+ytick.minor.width   : 0.75
+ytick.minor.visible : True
+
