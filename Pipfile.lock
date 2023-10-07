@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5bbb44c9cf95b0751f1e5a294db493ee50a08908e2826833cc3cd331fd9b136d"
+            "sha256": "4bc3c36f1b1002e90f4f0b518f12b2f312a7fcb4ee72c1f21562be5032763651"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,10 @@
         ]
     },
     "default": {
+        "boilerplot": {
+            "editable": true,
+            "file": "."
+        },
         "contourpy": {
             "hashes": [
                 "sha256:059c3d2a94b930f4dafe8105bcdc1b21de99b30b51b5bce74c753686de858cb6",

@@ -2,7 +2,7 @@
 
 axes.linewidth      : 1.0
 
-figure.dpi          : 300.0
+figure.dpi          : 600.0
 figure.figsize      : 2.5, 1.6667
 
 font.family         : serif
