@@ -2,15 +2,15 @@
 
 axes.linewidth      : 0.75
 
-# Single column 3.45 inches
+# Single column 2.24, two column 4.76, three column 7.24
 figure.constrained_layout.use: True
 figure.dpi          : 600.0
-figure.figsize      : 3.45, 2.3
+figure.figsize      : 2.24, 1.49
 
-# Times New Roman as default, DejaVu as a backup, as it is shipped with matplotlib
-font.family         : serif
-font.serif          : Times New Roman, DejaVu Serif
-font.size           : 9.0
+# Helvetica as default, DejaVu as a backup, as it is shipped with matplotlib
+font.family         : sans-serif
+font.sans-serif     : Helvetica, , DejaVu Sans
+font.size           : 7.0
 
 legend.frameon      : False
 
