@@ -1,0 +1,38 @@
+### IEEEtran optimized style
+
+axes.linewidth      : 0.75
+
+# Single column 3.45 inches
+figure.constrained_layout.use: True
+figure.dpi          : 600.0
+figure.figsize      : 2.5, 1.67
+
+# Times New Roman as default, DejaVu as a backup, as it is shipped with matplotlib
+font.family         : serif
+font.serif          : Times New Roman, DejaVu Serif
+font.size           : 8.0
+
+legend.frameon      : False
+
+lines.linewidth     : 1.0
+
+# Type 2 fonts, editable in i.e. Illustrator
+pdf.fonttype        : 42
+ps.fonttype         : 42
+
+xtick.direction     : in
+xtick.top           : on
+xtick.major.size    : 3
+xtick.major.width   : 0.75
+xtick.minor.size    : 1.5
+xtick.minor.width   : 0.75
+xtick.minor.visible : True
+
+ytick.direction     : in
+ytick.right         : on
+ytick.major.size    : 3
+ytick.major.width   : 0.75
+ytick.minor.size    : 1.5
+ytick.minor.width   : 0.75
+ytick.minor.visible : True
+
