@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-jupyter = ["jupyter"]
+jupyter = ["jupyter", "numpy"]
 
 [tool.setuptools]
 packages = ["boilerplot"]
