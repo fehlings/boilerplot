@@ -1,18 +1,23 @@
-[tool.poetry]
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
 name = "boilerplot"
 version = "0.1.0"
+authors = [
+    {name = "Luca Fehlings", email = "fehlings97@gmail.com"},
+]
 description = "Boilerplate for scientific matplotlib plots"
-authors = ["Luca Fehlings <fehlings97@gmail.com>"]
 readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib",
+]
 
-[tool.poetry.dependencies]
-python = ">=3.11,<3.13"
-matplotlib = "^3.8.0"
+[project.optional-dependencies]
+jupyter = ["jupyter"]
 
-[tool.poetry.group.dev.dependencies]
-jupyter = "^1.0.0"
-numpy = "^1.26.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.setuptools]
+packages = ["boilerplot"]
