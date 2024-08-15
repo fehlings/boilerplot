@@ -19,6 +19,8 @@ lines.linewidth     : 1.5
 # Type 2 fonts, editable in i.e. Illustrator
 pdf.fonttype        : 42
 ps.fonttype         : 42
+# SVG fonts not converted to path
+svg.fonttype        : none
 
 xtick.direction     : in
 xtick.top           : on
