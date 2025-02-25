@@ -7,10 +7,10 @@ figure.constrained_layout.use: True
 figure.dpi          : 600.0
 figure.figsize      : 3.45, 2.3
 
-# Times New Roman as default, DejaVu as a backup, as it is shipped with matplotlib
+# DejaVu Sans should be shipped with matplotlib, otherwise resort to Noto Sans or Helvetica
 font.family         : sans-serif
 font.serif          : DejaVu Sans, Noto Sans, Helvetica
-font.size           : 10.0
+font.size           : 8
 
 legend.frameon      : False
 
